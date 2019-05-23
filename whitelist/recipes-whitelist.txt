@@ -1,4 +1,4 @@
-# packages in core-image-minimal
+# packages in core-image-minimal build process
 base-files
 base-passwd
 binutils-cross-arm
@@ -15,6 +15,7 @@ gnu-config
 init-ifupdown
 initscripts
 kern-tools
+kern-tools-native
 ldconfig
 libnsl2
 libtool-cross
@@ -27,6 +28,7 @@ packagegroup-core-boot
 prelink
 ptest-runner
 qemu-helper
+qemu-helper-native
 qemuwrapper-cross
 run-postinsts
 shadow-securetty
@@ -37,3 +39,4 @@ tzcode
 update-rc.d
 util-macros
 which
+gnu-config-native
